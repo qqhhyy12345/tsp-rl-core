@@ -1,0 +1,9 @@
+# 核心算法依赖
+numpy>=1.26
+tqdm>=4.66
+ortools>=9.9          # OR-Tools 基线求解器（core/baselines.py）
+
+# PyTorch：请根据自身硬件单独安装
+# - NVIDIA GPU: pip install torch --index-url https://download.pytorch.org/whl/cu121
+# - AMD ROCm:   参考 https://pytorch.org 安装对应版本
+# - 仅 CPU:     pip install torch
